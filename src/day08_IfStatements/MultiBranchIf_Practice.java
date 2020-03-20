@@ -5,7 +5,7 @@ public class MultiBranchIf_Practice {
 
     public static void main(String[] args) {
 
-        double score = 55.5;  // max score is 100
+        double score = 89.5;  // max score is 100
         // please assume that grade is 0 ~ 100
 
         boolean AGrade = score >= 90 && score <= 100;
