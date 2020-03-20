@@ -14,7 +14,7 @@ package day08_IfStatements;
 public class DaysInMonth {
 
     public static void main(String[] args) {
-            byte month = 11;
+            byte month = 11;  // assume that user is giving numbers 1 ~ 12
 
           boolean days28 =   month == 2;
           boolean days30 =  month == 4 || month ==6 || month == 9 || month ==11;
