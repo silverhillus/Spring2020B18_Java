@@ -22,6 +22,7 @@ public class MultiBranchIf {
         }
 */
 
+
         if(a == 0 ){
             System.out.println("zero");
 
