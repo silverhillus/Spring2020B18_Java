@@ -33,7 +33,9 @@ public class DaysInMonth_MultiBranchIf {
         } else if( months ==12){
             result ="December has 31 days";
         } else{
+
             result ="Invalid Entry";
+
         }
 
         System.out.println(result);
