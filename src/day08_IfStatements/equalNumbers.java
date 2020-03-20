@@ -13,9 +13,9 @@ package day08_IfStatements;
 public class equalNumbers {
 
     public static void main(String[] args) {
-        double n1 =100.5;
-        double n2 = 100.5;
-        double n3 = 300.5;
+        double n1 = 200.5;
+        double n2 = 200.5;
+        double n3 = 100.5;
 
         boolean n1Equaln2 = n1==n2 && n1 != n3;     // if n1 equal to n2 and does equal n3, that makes n1 equal n2 only
         boolean n1Equaln3 = n1 == n3 && n1 != n2;  // only n1 and n3 are equal
@@ -50,6 +50,8 @@ public class equalNumbers {
         if(noneOfThemEqual){
             System.out.println("None of them are equal");
         }
+
+
 
 
 
