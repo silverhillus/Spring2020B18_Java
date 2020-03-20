@@ -23,18 +23,25 @@ public class DaysInMonth {
 
          // boolean days31_2 = !days28  && !days30 ;
 
+        int days = 0;
+
         if(days28){
-            System.out.println("It has 28 days");
+          //  System.out.println("It has 28 days");
+            days = 28;
         }
 
         if(days30){
-            System.out.println("It has 30 days");
+          //  System.out.println("It has 30 days");
+            days =30;
         }
 
         if(days31){
-            System.out.println("It has 31 days");
+         //   System.out.println("It has 31 days");
+            days = 31;
         }
 
+
+        System.out.println("It has "+days +" days");
 
 
     }
