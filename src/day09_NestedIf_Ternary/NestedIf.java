@@ -43,7 +43,9 @@ public class NestedIf {
 
         System.out.println(grade); // B
 
-            int score2 = 75;
+        System.out.println("======================================================");
+
+            int score2 = 200;
             String grade2 = "";
 
             if(score2>=0 && score2 <= 100){
@@ -55,7 +57,7 @@ public class NestedIf {
             }
 
 
-        System.out.println(grade2); //C
+        System.out.println(grade2); //Invalid
 
 
 
