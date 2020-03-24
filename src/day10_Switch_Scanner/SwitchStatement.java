@@ -3,8 +3,14 @@ package day10_Switch_Scanner;
 public class SwitchStatement {
 
     public static void main(String[] args) {
+    byte a =4;
 
-        switch(4){
+    float a1 = 4.5f;
+    long a2 = 10l;
+    double a3 = 2.5d;
+    boolean a4 = true;
+
+        switch( a ){
 
             case 1:
                 System.out.println("One");
