@@ -9,7 +9,7 @@ public class days {
      */
 
     public static void main(String[] args) {
-        int num = 9;
+        int num = 5;
         String result = "";
         String result2 ="";
 
@@ -44,8 +44,7 @@ public class days {
 
 
 
-        System.out.println(result);
-        System.out.println(result2);
+
 
 
         String result3 = "";
@@ -59,7 +58,12 @@ public class days {
             result3 = "Invalid";
         }
 
+
+    if(num > 0  && num < 8) {
+        System.out.println(result);
+        System.out.println(result2);
         System.out.println(result3);
+    }
 
 
 
