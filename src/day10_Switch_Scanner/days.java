@@ -42,12 +42,24 @@ public class days {
         result2 = (num==1)?"Monday" :(num==2)? "Tuesday" :(num==3)?"Wednesday" :(num==4)?"Thursday":(num==5)?"Friday"
                   :(num==6)?"Saturday" :(num==7)?"Sunday" : "Invalid";
 
-        // ? : 7
-        // : : 6
+
 
         System.out.println(result);
         System.out.println(result2);
 
+
+        String result3 = "";
+
+        if(num > 0  && num < 8 ){ // num can obly be 1 ~ 7
+
+            result3 = (num==1)?"Monday" :(num==2)? "Tuesday" :(num==3)?"Wednesday" :(num==4)?"Thursday":(num==5)?"Friday"
+                    :(num==6)?"Saturday" : "Sunday" ;
+
+        }else{
+            result3 = "Invalid";
+        }
+
+        System.out.println(result3);
 
 
 
