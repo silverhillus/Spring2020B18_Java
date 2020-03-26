@@ -22,6 +22,23 @@ public class ScannerClass {
         System.out.println("You have entered: "+b);
 
 
+        System.out.println("Enter a decimal number: ");
+         double f =   input.nextDouble();
+
+        System.out.println("You have entered: "+f);
+
+        System.out.println("Enter true or false");
+           boolean bool =   input.nextBoolean();
+
+        System.out.println(bool);
+
+
+        System.out.println("Enter your sentence: ");
+        String str =  input.next();
+
+        System.out.println("You have entered: "+str);
+
+
 
     }
 
