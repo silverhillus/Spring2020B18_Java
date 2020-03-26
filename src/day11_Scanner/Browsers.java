@@ -14,7 +14,7 @@ public class Browsers {
 
     public static void main(String[] args) {
 
-        String browserName = "fastestBrowser";  // Firefox, firefox
+        String browserName = "chrome";  // Firefox, firefox
 
         switch (browserName){
 
