@@ -31,6 +31,9 @@ public class Scanner_NextLine_Practice {
 
         System.out.println(fulladdress);
 
+      //  input.close();   // closes the scanner
+
+
     }
 
 }
