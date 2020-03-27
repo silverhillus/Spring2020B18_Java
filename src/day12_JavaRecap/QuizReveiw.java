@@ -20,6 +20,8 @@ public class QuizReveiw {
         }
 
 
+        System.out.println( true ==  true!=false );
+                        //  true == true  ==> true
 
 
     }
