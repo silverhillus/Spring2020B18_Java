@@ -43,7 +43,7 @@ public class ShippingInfo {
         System.out.println("Enter your Full Name");
         String fullName = input.nextLine();
 
-        String result = "Ship To:  "+fullName+"\n"+buildingNum+" "+streetAddress+"\n"+cityName+", "+stateName+" "+zipCode;
+        String result = "Ship To:  "+fullName+"\n\t\t"+buildingNum+" "+streetAddress+"\n\t\t"+cityName+", "+stateName+" "+zipCode;
 
         System.out.println(result);
 
