@@ -38,7 +38,7 @@ public class ShippingInfo {
         System.out.println("Enter your zip code");
         String zipCode = input.next();
 
-        input.nextLine(); // Enter
+        input.nextLine();  // Enter
 
         System.out.println("Enter your Full Name");
         String fullName = input.nextLine();
