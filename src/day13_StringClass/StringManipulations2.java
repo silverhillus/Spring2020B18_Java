@@ -36,6 +36,36 @@ public class StringManipulations2 {
 
         System.out.println(gmail);
 
+        String s1 = "I love Java Programming Language";
+        //           01234567
+
+        String className = s1.substring(7);
+
+        System.out.println(className);
+
+
+        String s2 = "I like C# Programming C# C#";
+            s2 =   s2.replace("C#", "Java" );
+
+        System.out.println(s2);
+
+        String name = "COVID 18";
+             name = name.replace("18", "19");
+
+        System.out.println(name);
+
+
+        String r1 = "I like C#, C# is fun, C# is cool";
+            r1 = r1.replaceFirst("C#", "Java");
+
+        System.out.println(r1);
+
+        String r2 = "Tomorrow is Monday, Tomorrow is Tuesday";
+        r2 = r2.replaceFirst("Tomorrow", "Today");
+
+        System.out.println(r2);
+
+
 
 
     }
