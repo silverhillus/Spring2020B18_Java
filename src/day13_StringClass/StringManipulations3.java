@@ -27,6 +27,14 @@ public class StringManipulations3 {
         System.out.println(a1);
 
 
+        String fullname = "Rahman Abdalla";
+        String firstName = fullname.substring(0,  fullname.indexOf(" ")  );
+        String lastName = fullname.substring( fullname.indexOf(" ")+1 );
+
+        System.out.println(firstName);
+        System.out.println(lastName);
+
+
 
 
     }
