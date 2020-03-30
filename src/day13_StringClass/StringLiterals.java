@@ -1,5 +1,7 @@
 package day13_StringClass;
 
+// import java.lang.String;  not necessary, all the class in "java.lang" package are imported automatically
+
 public class StringLiterals {
 
     public static void main(String[] args) {
