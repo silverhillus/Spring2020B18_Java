@@ -54,11 +54,11 @@ public class practice {
         }
 
         /*
-        write a program that can validate if a weba ddress is valid
+        write a program that can validate if a web address is valid
 
             valid web address:
                     MUST start with www.
-                    Must ends with  .com, or .edu, .net, .Gov
+                    Must ends with  .com, or .edu, or .net,  or .Gov
 
 
          */
