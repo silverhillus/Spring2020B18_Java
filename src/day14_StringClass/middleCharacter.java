@@ -40,7 +40,7 @@ public class middleCharacter {
 
         }
 
-        System.out.println(middleCharacter);
+        System.out.println("Middle character: "+middleCharacter);
 
 
 
