@@ -32,7 +32,7 @@ public class CheckWords {
 
         if(length1 == length2 && length2 == length3 ){
                 //  if they are same length:      "print "All words are same length"
-            System.out.println("print All words are same length" );
+            System.out.println("All words are same length" );
 
         }else if(NotSame){
 
