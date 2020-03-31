@@ -12,6 +12,16 @@ public class StringManipulations3 {
         System.out.println(str1.equalsIgnoreCase(str2) ); // true, ignores case sensitivity
 
 
+        String s1 = "Cybertek School";
+
+        boolean r1 =   s1.contains("school");   // true
+
+        System.out.println(r1);
+
+
+        String s3 = "United States";
+        System.out.println( s3.startsWith("U") );  // true
+
 
 
     }

@@ -13,6 +13,34 @@ public class practice {
             System.out.println("Logged in");
         }
 
+        System.out.println("==================================");
+        /*
+        valid password should not conatin spaces
+         */
+
+        String PassWord = "mmasd 1235";
+
+        if(PassWord.contains(" ")){
+            System.out.println("Password cannot have space in it");
+        }else{
+            System.out.println("valid password");
+        }
+
+        System.out.println("==================================");
+        /*
+        every website has "www." at the begenning of the web address
+         */
+
+        String webAddress = "Www.amazon.com";
+               webAddress = webAddress.toLowerCase();
+
+        if( webAddress.startsWith("www.") ){
+                    // false
+            System.out.println("valid");
+
+        }
+
+
 
     }
 
