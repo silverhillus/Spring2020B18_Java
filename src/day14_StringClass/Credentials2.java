@@ -23,10 +23,13 @@ public class Credentials2 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter your username");
-        String inputUsername = input.next();
+        String inputUsername = input.nextLine();
 
         System.out.println("Enter your password");
-        String inputPassWord = input.next();
+        String inputPassWord = input.nextLine();
+
+
+
 
         boolean logedIn = inputUsername.equals("Cybertek") && inputPassWord.equals("cybertekschool");
                             // user entered both valid username and password
@@ -58,12 +61,7 @@ public class Credentials2 {
 
 
 
-
-
     }
-
-
-
 
 
 
