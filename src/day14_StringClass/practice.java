@@ -39,6 +39,29 @@ public class practice {
             System.out.println("valid");
 
         }
+        System.out.println("==================================");
+
+        /*
+        every single gmail address ends with @gmail.com
+         */
+
+        String email = "CybertekSchool@Yahoo.com";
+
+        if(email.endsWith("@gmail.com")){
+            System.out.println("valid Gmail");
+        }else{
+            System.out.println("Invalid gmail");
+        }
+
+        /*
+        write a program that can validate if a weba ddress is valid
+
+            valid web address:
+                    MUST start with www.
+                    Must ends with  .com, or .edu, .net, .Gov
+
+
+         */
 
 
 

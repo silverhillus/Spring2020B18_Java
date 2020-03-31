@@ -22,6 +22,12 @@ public class StringManipulations3 {
         String s3 = "United States";
         System.out.println( s3.startsWith("U") );  // true
 
+        String s4 = "Cybertel School";
+        System.out.println( s4.endsWith("l") );  // true
+        System.out.println( s4.endsWith("School") ); // true
+
+        System.out.println(s4.endsWith("Cybertek")); // false
+
 
 
     }
