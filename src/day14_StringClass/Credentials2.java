@@ -6,7 +6,7 @@ public class Credentials2 {
 
     /*
         valid credentials are:
-            username: cybertek
+            username: Cybertek
             password: cybertekschool
 
    precondition:    username and passowrd cannot be empty
@@ -31,7 +31,7 @@ public class Credentials2 {
         boolean logedIn = inputUsername.equals("Cybertek") && inputPassWord.equals("cybertekschool");
                             // user entered both valid username and password
 
-        boolean InvalidUserName =  ! inputUsername.equals("Cybertek") && inputPassWord.equals("cybertekschool");
+        boolean InvalidUserName =  !inputUsername.equals("Cybertek") && inputPassWord.equals("cybertekschool");
                                         // user entered invalid username and valid password
 
         boolean InvalidPassWord = inputUsername.equals("Cybertek") && ! inputPassWord.equals("cybertekschool");
