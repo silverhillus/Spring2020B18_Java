@@ -43,10 +43,7 @@ public class StringManipulations2 {
         System.out.println(z1.equals(z3));  // true
         System.out.println(z3.equals(z4)); // false
 
-        /*
-        userName: cybertek
-        passWord: cybertekschool
-         */
+
 
 
     }
