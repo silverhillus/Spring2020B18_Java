@@ -30,8 +30,11 @@ public class StartEndWords {
 
         if(length1 ==5 && length2 ==5){
 
-            if( word1.charAt( length1-1 ) ==  word2.charAt(0) ){
+            if(  word1.charAt( length1-1 )    ==  word2.charAt(0) ){
+                // last char in first word   ==   first char in second word
+
                 System.out.println("Fizz");
+
             }else{
                 System.out.println("Buzz");
             }
@@ -39,6 +42,10 @@ public class StartEndWords {
         }else{
             System.out.println("need to be exactly 5 chars length");
         }
+
+
+
+
 
 
     }
