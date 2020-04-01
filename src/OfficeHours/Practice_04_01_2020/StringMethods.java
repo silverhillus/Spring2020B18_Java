@@ -113,8 +113,29 @@ public class StringMethods {
 
         System.out.println("=============================================");
 
+        //replace(old str, new str): replaces all the matching ones, returns new string
+        String str = "I like C#, C# is cool";
+             str =   str.replace("C#" , "Java" ); // "I like Java, Java is cool"
 
+        System.out.println(str);
 
+        //replaceFirst(old str, new str): replace the firast matching one, returns new string
+        String t1 = "Java is fun, Java is good";
+        t1 = t1.replaceFirst(", Java", ", C#");
+        System.out.println(t1);
+
+        System.out.println("=============================================");
+        // indexOf(str): returns the index of first matching character, as an int
+        String y1 = "Today W is Wednesday";
+          int a1 =  y1.indexOf("W");  // first W' index num
+           int a2 = y1.indexOf("Wednesday");  // second W' index num
+        System.out.println(a1);
+        System.out.println(a2);
+
+        //lastIndexOf(str): returns the index of last matching character, as an int
+        String y2 = "Cybertek School, School";
+        int a3 = y2.lastIndexOf("S"); // last S' index number
+        System.out.println(a3);
 
 
 
