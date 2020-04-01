@@ -9,6 +9,7 @@ public class literal_new {
 
         String s3 = new String("Java");
 
+
         String s4 = new String("Java");
 
         System.out.println( s1 == s2 );  // true, same objects
