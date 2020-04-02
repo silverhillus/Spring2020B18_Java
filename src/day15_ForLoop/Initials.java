@@ -24,15 +24,16 @@ public class Initials {
         System.out.println("Enter your last name");
             String lastName  =  scan.next();
 
-          /*
-            String initials = firstName.substring(0,1).toUpperCase() +  lastName.substring(0,1).toUpperCase();
+
+            String initials2 = firstName.substring(0).toUpperCase() +  lastName.substring(0,1).toUpperCase();
              //    initials = initials.toUpperCase();
-        */
+
 
           String initials = "" + firstName.charAt(0) + lastName.charAt(0);  // returns string
 
                 initials = initials.toUpperCase();
         System.out.println(initials);
+        System.out.println(initials2);
 
 
 
