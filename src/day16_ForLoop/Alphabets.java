@@ -31,6 +31,27 @@ public class Alphabets {
 
         System.out.println('a' + ""+ 'b');
 
+        //second solution
+        int a = 97;
+        int A = 65;
+
+        String result2 ="";
+        for(int i =0 ; i < 26; i++ ){
+               char ch = (char)(A +i);  // upper case characters
+                    //          65
+                char ch2 = (char)(a +i);
+                //                97+0
+
+            result2 += ch + "" +ch2+" ";
+        }
+
+        System.out.println(result2);
+
+
+
+
+
+
 
     }
 
