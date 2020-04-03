@@ -31,6 +31,8 @@ public class Alphabets {
 
         System.out.println('a' + ""+ 'b');
 
+
+
         //second solution
         int a = 97;
         int A = 65;
