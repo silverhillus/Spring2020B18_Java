@@ -1,10 +1,13 @@
 package day16_ForLoop;
 
+import java.util.Scanner;
+
 public class RemoveDuplicates {
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
 
-        String str = "ABAB";
+        String str = scan.next();
 
 
         String result = "";  // "AB" we store the expected result in this variable
@@ -17,12 +20,12 @@ public class RemoveDuplicates {
 
              */
 
-            if(result.contains( ""+str.charAt(i) )){
+            if(result.contains( ""+str.charAt(i) )){   // i is the index number
                 // if the string result does not contains str.charAt(i), then we concate it to the result, if it does we will not concate it to the result
                 continue;
             }
 
-            result += str.charAt(i);
+            result += str.charAt(i);  // only gets executed if str.charAt(i) is not contained in the result
 
         }
 
