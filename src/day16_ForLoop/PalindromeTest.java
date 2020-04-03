@@ -14,8 +14,14 @@ public class PalindromeTest {
             for(int i = word.length()-1; i >= 0; i-- ){
                 reversedWord    +=  word.charAt(i);
             }
+//Level ==> leveL
 
-        System.out.println(reversedWord);
+            boolean palindrome = word.equalsIgnoreCase(reversedWord);
+
+        System.out.println(palindrome);
+
+
+
 
 
 
