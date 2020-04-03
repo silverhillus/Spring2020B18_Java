@@ -10,6 +10,7 @@ public class Alphabets {
             upperCase += ch;
         }
 
+
         System.out.println(upperCase);
 
         for(char ch = 'a'; ch <= 'z'; ch++){
