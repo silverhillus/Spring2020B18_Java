@@ -23,7 +23,7 @@ public class Alphabets {
 
         for(int i=0; i <= upperCase.length()-1; i++ ){
 
-            result += upperCase.charAt(i) + ""+ lowerCase.charAt(i)+" " ;
+            result +=   upperCase.charAt(i)+"" + lowerCase.charAt(i)+" " ;
 
         }
 
