@@ -30,26 +30,33 @@ public class Calculator {
         int num2 = input.nextInt();
 
         System.out.println("Math operator: ");
-        String operator = input.next();  // +, -, *, /, %
+        char operator = input.next().charAt(0);  // +, -, *, /, %
 
-        if (operator.equals("+")) {
+        if (operator == '+') {
             System.out.println("Addition is: " + (num1 + num2));
-        } else if (operator.equals("-")) {
+
+        } else if (operator == '-') {
             System.out.println("Subtraction is: " + (num1 - num2));
-        } else if (operator.equals("*")) {
+
+        } else if (operator == '*') {
             System.out.println("Multiplication is: " + (num1 * num2));
-        } else if (operator.equals("/")) {
-            System.out.println("Division is: " + (num1 / num2));
-        } else if (operator.equals("%")) {
+
+        } else if (operator == '/') {
+            System.out.println("Division is: " + (num1/num2));
+
+        } else if (operator == '%') {
             System.out.println("remainder is: " + (num1 % num2));
+
         } else {
             System.out.println("Invalid Operator");
+
         }
 
         System.out.println("Do you wanna continue");
         String answer = input.next();
 
         if(answer.equalsIgnoreCase("no")){  // o0nly exits the loop if the answer is NO
+            System.out.println("Thank you for using the calculator");
             break;
         }
 
