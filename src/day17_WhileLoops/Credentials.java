@@ -40,14 +40,14 @@ public class Credentials {
                 break;
             }
 
-
+            if(valid){
+                System.out.println("Logged in");
+            }
 
         }
 
 
-        if(valid){
-            System.out.println("Logged in");
-        }
+
 
 
 
