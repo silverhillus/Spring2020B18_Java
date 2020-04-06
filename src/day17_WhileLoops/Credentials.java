@@ -35,7 +35,7 @@ public class Credentials {
                         // validating new username and passwords
             count++;
 
-            if(count ==3 ){
+            if(count ==3 && !valid ){
                 System.out.println("Your account is locked");
                 break;
             }
