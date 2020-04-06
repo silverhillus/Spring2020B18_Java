@@ -33,27 +33,23 @@ public class Credentials {
 
             valid = (username.equals("cybertek") && password.equals("cybertek123") );  // true
                         // validating new username and passwords
-            count++;
 
-            if(count ==3 && !valid ){
+            count++;
+            if(count ==3 && ! valid ){ // already have three attempts and credentials are still incorrect
                 System.out.println("Your account is locked");
                 break;
             }
 
-            if(valid){
-                System.out.println("Logged in");
-            }
+        }
 
+        if(valid){ // credentials are correct
+            System.out.println("logged in");
         }
 
 
 
 
-
-
 // System.exit(0), break, continue
-
-
 
 
     }
