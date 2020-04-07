@@ -9,6 +9,7 @@ public class do_While_Loop {
         do{
             System.out.println("Hello World");
         }while(i == 0);  // false
+        //     5 == 0  ==> false
 
 
         System.out.println("=======================================");
