@@ -62,7 +62,7 @@ public class do_While_Practice {
        do{
 
            if(t%2 != 0){
-               t++;
+               t++;  // to make sure that the iterator (increament) is not skipping
                continue;
            }
 
