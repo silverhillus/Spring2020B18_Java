@@ -30,8 +30,8 @@ public class NestedLoop {
     for(int i=0; i <7; i++){  // outter loop rpeating the inneer loop over and over again
 
         int a = 1;
-        while(a<=100){
-            System.out.print("*");
+        while(a<=10){
+            System.out.print("* ");
             a++;
         }
         System.out.println();
