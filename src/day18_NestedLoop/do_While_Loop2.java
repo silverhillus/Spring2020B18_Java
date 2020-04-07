@@ -15,6 +15,7 @@ public class do_While_Loop2 {
 
         int number2 = 103;
 
+
     do{
         System.out.println(number2);
         number2--;

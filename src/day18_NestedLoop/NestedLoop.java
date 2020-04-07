@@ -25,6 +25,7 @@ public class NestedLoop {
             ******
             ******
 
+
          */
 
     for(int i=0; i <7; i++){  // outter loop rpeating the inneer loop over and over again

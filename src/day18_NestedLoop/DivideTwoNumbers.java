@@ -17,6 +17,8 @@ public class DivideTwoNumbers {
      */
 
     public static void main(String[] args) {
+
+
         int a = 20;
         int b = 3;
 
@@ -24,6 +26,7 @@ public class DivideTwoNumbers {
             System.out.println("b cannot be zero");
             System.exit(0);
         }
+
 
         int count = 0; // count the execution of the loop
 

@@ -33,6 +33,7 @@ public class FactorialNumber {
         System.out.println(result);
 
 
+
     }
 
 }

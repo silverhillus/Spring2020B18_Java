@@ -22,6 +22,7 @@ public class NestedLoop_Practice {
             }
 
 
+
         if(answer.equalsIgnoreCase("No")){
             System.out.println("Thank you for using the calculator");
             break;
