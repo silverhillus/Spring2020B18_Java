@@ -38,6 +38,40 @@ public class do_While_Practice {
             z++;
         }while(z <= 5);
 
+        System.out.println("==============================");
+
+        int y = 1; //3
+        do{
+
+            if(y == 3){
+                y++;   // need to make sure that the iterator is not skipping, so that the condition will eventually be false
+                continue;
+            }
+
+            System.out.println(y); // 1, 2
+
+            y++;
+
+
+        }while(y <= 5);
+        //     3 <= 5
+
+        System.out.println("==============================");
+
+       int t = 1; //1
+       do{
+
+           if(t%2 != 0){
+               t++;
+               continue;
+           }
+
+           System.out.print(t+" ");
+
+           t++;
+
+       }while(t <= 100);
+
 
 
     }
