@@ -72,7 +72,6 @@ public class do_While_Practice {
 
        }while(t <= 100);
 
-        //done
 
     }
 
