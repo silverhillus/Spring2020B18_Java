@@ -32,6 +32,21 @@ public class do_WhileLoop {
         }while(b);
 
 
+        System.out.println("=====================");
+
+        int j = 0;
+
+        do{
+
+            if(j%15 ==0) {
+                System.out.print(j + " ");
+            }
+
+
+          j++;
+        }while(j <= 100);
+
+
 
 
     }
