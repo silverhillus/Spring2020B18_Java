@@ -20,21 +20,26 @@ public class ForLoop_Task {
         //             1234
         String name = "Anna";
                 //     0123
-        String result = "";
+        String result = ""; // annA
          int lastIndex =  name.length()-1;
 
          for(int i = lastIndex; i >= 0; i-- ){
-            result = result + name.charAt(i);
+            // result = result + name.charAt(i);
+             result = result + name.substring(i, i+1);
+                                        //    3, 4 ==> a
+                                        //    2, 3 ==> n
+                                        //    1, 2 ==> n
+                                        //    0, 1 ==> A
          }
 
 
         System.out.println(result);
 
-         if(name.equalsIgnoreCase(result)){
-             System.out.println(name+" is palindrome name");
-         }else{
-             System.out.println(name+" is not palindrome name");
-         }
+        if (name.equalsIgnoreCase(result)) {
+            System.out.println(name + " is palindrome name");
+        } else {
+            System.out.println(name + " is not palindrome name");
+        }
 
 
 
