@@ -8,6 +8,8 @@ public class nestedLoop_Practice {
                         inner loop & outer loop
 
                 nested loop: we only need them when we need to repeat a loop
+
+                outer loop repeats the inner loop
          */
 
 
@@ -45,6 +47,42 @@ public class nestedLoop_Practice {
             System.out.println();
 
         }
+
+        System.out.println("============================================");
+        /*
+            *
+            * *
+            * * *
+            * * * *
+            * * * * *
+            * * * * * *
+            * * * * * * *
+
+         */
+
+
+        for(int i= 1; i <8; i++){
+
+            for (int k = 0; k < i; k++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+
+        }
+
+
+
+        for(int i= 8; i > 0; i--){
+
+            for (int k = 0; k < i; k++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+
+        }
+
+
+
 
 
 
