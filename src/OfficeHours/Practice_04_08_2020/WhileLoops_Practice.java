@@ -9,6 +9,11 @@ public class WhileLoops_Practice {
             }
 
             repeated if statement
+            execution order:
+                1. condition
+                    if true: executes statements
+                    if false: stops the loop
+
          */
 
         for(int i= 0; i < 5; i++){
