@@ -28,6 +28,12 @@ public class Arrays_Equal {
 
         System.out.println(result3);
 
+        int[] array1 = {1,2,3};
+        int[] array2 = {1,2,3,4};
+
+        boolean result4 = Arrays.equals(array1, array2);  // false
+        System.out.println(result4);
+
 
 
     }
