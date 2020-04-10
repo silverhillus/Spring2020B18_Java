@@ -18,6 +18,7 @@ public class Max_Min {
 
         for(int i = 0; i <= lastindex; i++  ){
 
+
             if(arr[i] >= max){  // array's index are compared with each other, and whichever is greater will be assigned to the max
                 max = arr[i];
             }
