@@ -24,13 +24,25 @@ public class Months {
         System.out.println("Enter a number");
             int num = input.nextInt(); // 18
 
+            int attepmts = 1;
+
             while(num > 12 || num <= 0){
+
                 System.out.println("Invalid Entry");
                 System.out.println("Please re-enter the number");
                 num = input.nextInt();  //12
+                attepmts++;
+
+                if(attepmts == 3 &&  (num > 12 || num <= 0) ){
+                    System.out.println("Invalid Entry, you already have 3 attepmts");
+                    System.exit(0);
+                }
+
             }
 
-            String result =  months[num-1];
+
+
+            String result =  months[num-1];  // index number, index number starts from 0 ALWAYS
 
         System.out.println(result);
 
