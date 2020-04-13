@@ -13,8 +13,8 @@ public class Logest_Shortest_Words {
         int maxLengthString = names[0].length(); //4
         int minLengthString = names[0].length();
 
-        String logestword = "";
-        String shortestWord = "" ;
+        String logestword = names[0];
+        String shortestWord = names[0] ;
 
         for(int i = 0; i < names.length ; i++  ){
 
