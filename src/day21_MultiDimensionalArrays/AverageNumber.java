@@ -19,7 +19,8 @@ public class AverageNumber {
         double[] arr = {1, 2, 2};  //5, 10
         // average: sum of all numbers / length
 
-       double length = arr.length; // total number of the elements
+       int length = arr.length; // total number of the elements
+
        double sum = 0;
 
        for(int i = 0; i < length; i++  ){
