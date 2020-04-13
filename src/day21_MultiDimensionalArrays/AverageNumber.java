@@ -13,9 +13,13 @@ package day21_MultiDimensionalArrays;
 
  */
 
+import java.text.DecimalFormat;
+
 public class AverageNumber {
 
     public static void main(String[] args) {
+        DecimalFormat DF = new DecimalFormat("0.00");
+
         double[] arr = {1, 2, 2};  //5, 10
         // average: sum of all numbers / length
 
@@ -31,8 +35,8 @@ public class AverageNumber {
         System.out.println(sum);
 
        double average = sum/length;
-
         System.out.println(average);
+        System.out.println(DF.format( average ) );
 
         /*
                 [2,1,3] ==> 6
