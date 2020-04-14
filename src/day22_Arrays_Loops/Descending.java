@@ -5,6 +5,9 @@ import java.util.Arrays;
 public class Descending {
 
     public static void main(String[] args) {
+        // 1. sort the array in ascedning
+        // 2. reverse the array that's sorted in ascending  ==> descending
+
         int[] arr = {10, 78, 2, -1, 500, 70};
         Arrays.sort(arr); // sorts in ascending
 
