@@ -4,11 +4,11 @@ public class Frequency {
 
     public static void main(String[] args) {
 
-        String str = "Cybertek School is a great place to study".toLowerCase();  //  is fun is cool
+        String str = "JavaJavaJava".toLowerCase();  //  is fun is cool
 
         int count = 0 ;
 
-        String word = "s".toLowerCase();  // ignoring the case sensitiveity by converting both string to lowercase
+        String word = "java".toLowerCase();  // ignoring the case sensitiveity by converting both string to lowercase
 
         while(str.contains(word)){
 
