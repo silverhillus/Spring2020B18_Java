@@ -6,7 +6,7 @@ package day22_Arrays_Loops;
 public class Java_Python {
 
     public static void main(String[] args) {
-        String sentence = "I like java and javascript python python";
+        String sentence = "I like java and javascript";
 
         sentence =  sentence.toLowerCase();
 
