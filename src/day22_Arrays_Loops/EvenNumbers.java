@@ -22,7 +22,7 @@ public class EvenNumbers {
     */
 
         for(int i = 0; i < numbers.length; i++ ){
-            numbers[i] = i+1;
+            numbers[i] = i+1;  // assigning 1~ 100
         }
 
         System.out.println(Arrays.toString(numbers) );
