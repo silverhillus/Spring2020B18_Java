@@ -28,7 +28,8 @@ public class Scanner_Arrays {
 
         for( String each  : arr  ){
 
-           String str = each.substring(0, 2+1);
+          // String str = each.substring(0, 2+1);  // first three characters
+           String str = each.charAt(0) + "" +  each.charAt(each.length()-1);  // first and last character
             System.out.println(str);
         }
 
