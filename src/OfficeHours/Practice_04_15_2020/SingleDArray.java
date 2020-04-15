@@ -48,6 +48,7 @@ public class SingleDArray {
                    namesRev[i] = names[k];
                    k--;
                }
+
         */
            int i =0;
            int k = length-1; // max index number
