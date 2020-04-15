@@ -26,6 +26,9 @@ public class Multi_DimensionalArrays {
         System.out.println( arr2D[1][0]  );
 
 
+        System.out.println( Arrays.deepToString(arr2D) );
+
+
 
     }
 
