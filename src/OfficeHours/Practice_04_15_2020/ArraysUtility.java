@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class ArraysUtility {
 
     /*
-    Arrays.sort(): sorts the array in Ascending order
-    Arrays.equal():
-    Arrays.toString():
+    Arrays.sort(arr): sorts the array in Ascending order
+    Arrays.equal(arr1, arr2):  arr1 == arr2
+    Arrays.toString(): converts single dimentional array to string
 
-    Arrays.deepToString()
+    Arrays.deepToString(): onverts multi dimentional array to string
      */
 
     public static void main(String[] args) {
@@ -33,8 +33,14 @@ public class ArraysUtility {
         System.out.println("Maximum salary: "+ salaries[ salaries.length-1 ]);
 
 
+        System.out.println("=======================================================");
+        int[] arr1 = {3,2,1};
+        int[] arr2 = {2,1,3};
 
+        Arrays.sort(arr1); // {1,2,3};
+        Arrays.sort(arr2);//  {1,2,3};
 
+        System.out.println( Arrays.equals(arr1, arr2)  );
 
     }
 
