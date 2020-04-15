@@ -23,12 +23,12 @@ public class NestedLoops2 {
                 if(numbers[j][i] % 2==0 ){
                     continue;
                 }
-
                 System.out.println( numbers[j][i] );
-
             }
 
         }
+
+
         System.out.println("==================================================");
         // print all the even number with for each loop. MUST use continue statement
 
