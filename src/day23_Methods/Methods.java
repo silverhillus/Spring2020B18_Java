@@ -14,6 +14,8 @@ public class Methods {
 			step6: Hello World 5 times
      */
 
+
+
     public static void main(String[] args) {
 
         System.out.println("Hello Cybertek");
@@ -23,13 +25,14 @@ public class Methods {
         System.out.println("Hello Saim");
         printHello5();
 
+        System.out.println("=======================================");
+
+        evenNumbers1_100();
+
+        OddNumbers1_100();
+
 
     }
-
-
-
-
-
 
     public static void printHello5(){
 
@@ -40,10 +43,49 @@ public class Methods {
     }
 
 
+    public static void evenNumbers1_100(){
+
+        for(int i = 1; i <= 100; i++){
+
+            if(i%2 ==0){
+                System.out.print(i+" ");
+            }
+
+        }
+
+        System.out.println();
+
+    }
 
 
+    public static void OddNumbers1_100(){
+
+        for(int i=1; i <= 100; i++){
+
+            if(i%2 != 0){
+                System.out.print(i+" ");
+            }
+
+        }
+
+        System.out.println();
+
+    }
 
 
 
 
 }
+
+/*
+        step1: void method (without parameter)
+        step2: void method(with parameter)
+        step3: return method (without parameter)
+        step4: return method (with parameter)
+        step5: using the method different clases
+        step6: overloading
+            ...
+ */
+
+
+
