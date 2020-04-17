@@ -18,7 +18,7 @@ public class Library {
 
     }
 
-    public static String Reverse(String str){
+    public static String Reverse(String str){  // can reverse a string and returns string
         String Reverse = "";
 
         for(int i = str.length()-1; i >= 0; i-- ){
