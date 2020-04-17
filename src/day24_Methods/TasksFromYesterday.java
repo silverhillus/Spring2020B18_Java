@@ -36,17 +36,6 @@ public class TasksFromYesterday {
     }
 
 
-    public static void Descending(int[] array){ // {100, 200, -100};
-
-        Arrays.sort(array);
-
-        for(int i = array.length-1; i>=0; i-- ){
-            System.out.print(array[i] +" ");
-        }
-        // 3 2 1
-        System.out.println();
-    }
-
 
 
     public static void main(String[] args) {
@@ -68,10 +57,18 @@ public class TasksFromYesterday {
 
 
 
+    }
 
 
+    public static void Descending(int[] array){ // {100, 200, -100};
 
+        Arrays.sort(array);
 
+        for(int i = array.length-1; i>=0; i-- ){
+            System.out.print(array[i] +" ");
+        }
+        // 3 2 1
+        System.out.println();
     }
 
 
