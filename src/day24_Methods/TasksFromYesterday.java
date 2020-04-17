@@ -61,6 +61,7 @@ public class TasksFromYesterday {
 
         int[] arr2 = {100,20,30,40, 40, -100};
         MaxNumber(arr2);
+
         MinNumber( arr2 );
 
         Descending(arr2);
