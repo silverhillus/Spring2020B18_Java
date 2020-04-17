@@ -26,7 +26,7 @@ public class Library {
 
     }
 
-    public static String Reverse2(String str){
+    public static String Reverse(String str){
         String Reverse = "";
 
         for(int i = str.length()-1; i >= 0; i-- ){
