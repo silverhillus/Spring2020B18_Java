@@ -22,9 +22,35 @@ public class BirthYear {
     public static void main(String[] args) {
 
 
-         Age( 2000 );
+       // Age( 2000 );
+
+        printHelloCybertek(); // Hello Cybertek
+
 
     }
+
+
+    public static void printHello(){
+
+        System.out.println("Hello");
+
+    }
+
+    public static void printCybertek(){
+        System.out.println("Cybertek");
+    }
+
+
+    public static void printHelloCybertek(){
+        printHello(); // Hello
+        printCybertek(); //Cybertek
+
+    }
+
+
+
+
+
 
 
 
