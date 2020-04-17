@@ -103,7 +103,7 @@ public class WarmUps {
         int num1 = scan.nextInt();
         System.out.println("Enter num2: ");
         int num2 = scan.nextInt();
-        System.out.println("Enter operator: ");
+         System.out.println("Enter operator: ");
         char operator = scan.next().charAt(0);
         Calculation(num1, num2, operator);  // result of calculation
         System.out.println("Do you want to continue?");
