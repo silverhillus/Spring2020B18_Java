@@ -7,14 +7,6 @@ public class Library {
     public static int[] sortDesending(int[] arr){
         Arrays.sort(arr);  // {1,2,3,4};  ==> {4,3,2,1};
         int[] RevArr = new int[arr.length] ;
-        /*
-                      i        j
-               RevArr[0] = arr[3]
-               RevArr[1] = arr[2]
-               RevArr[2] = arr[1];
-               RevArr[3] = arr[0];
-
-         */
 
         int j = arr.length-1;
         for(int i =0; i < arr.length; i++ ){
