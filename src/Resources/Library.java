@@ -29,5 +29,17 @@ public class Library {
     }
 
 
+     // remove duplicates from string
+
+    // Frequency of string
+
+    // merge two array and return third one
+
+    // max number from array
+
+    // min number from array
+
+
+
 
 }
