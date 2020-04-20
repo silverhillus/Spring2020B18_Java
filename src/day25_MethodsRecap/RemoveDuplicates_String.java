@@ -1,6 +1,6 @@
 package day25_MethodsRecap;
 
-public class WarmUp {
+public class RemoveDuplicates_String {
 
     public static void main(String[] args) {
 
