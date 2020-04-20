@@ -46,59 +46,52 @@ method decleration:
 
     public static String getDriver1(String browserName){
 
-            String result = "";
 // fire fox ==>firefox
             switch (browserName.toLowerCase()){  // "ChromE".toLowerCase() ==> chrome
-                case "chrome": result = "Chrome Driver";
-                                break;
+                case "chrome": return "Chrome Driver";
 
-                case "firefox": result = "Firefox Driver";
-                                break;
+                case "firefox": return "Firefox Driver";
 
-                case "safari": result = "Safari Driver";
-                                break;
+                case "safari": return "Safari Driver";
 
-                case "opera": result = "Opera Driver";
-                                break;
+                case "opera": return "Opera Driver";
 
-                case "edge": result = "Edge Driver";
-                                break;
+                case "edge": return "Edge Driver";
 
-                default: result = "Invalid Driver";
+                default: return "Invalid Driver";
             }
 
-            return result;
+
     }
 
     public static String getDriver2(String browserName){
         browserName = browserName.toLowerCase();  //to ignore case sensitivity
-        String result = "";
+
         if(browserName.equals("chrome")){
-            result = "Chrome Driver";
+           return "Chrome Driver";
         }else if(browserName.equals("firefox")){
-            result = "FireFox driver";
+           return "FireFox driver";
         }else if(browserName.equals("safari")){
-            result = "Safari Driver";
+            return "Safari Driver";
         }else if(browserName.equals("edge")){
-            result = "Edge Driver";
+            return "Edge Driver";
         }else if(browserName.equals("opera")){
-            result = "Opera Driver";
+            return "Opera Driver";
         }else{
-            result = "Invalid Driver";
+            return "Invalid Driver";
         }
 
-        return result;
     }
 //:()?, : ,  ()?
     public static String getDriver3(String browserName){
         browserName = browserName.toLowerCase();
-        String result = (browserName.equals("chrome"))? "Chrome Driver"
+        return (browserName.equals("chrome"))? "Chrome Driver"
                         :(browserName.equals("firefox"))? "Firefox Driver"
                         :(browserName.equals("safari"))? "Safari Driver"
                         :(browserName.equals("edge"))? "Edge Driver"
                         :(browserName.equals("Opera"))?"Opera Driver" : "Invalid Driver" ;
 
-        return result;
+
     }
 
 
