@@ -29,9 +29,11 @@ method decleration:
     public static void main(String[] args) {
       //  getDriver1(); //argument is mandatory
 
-       String str = getDriver1("Cybertek"); // FIREFOX
+       String str = getDriver1("Cybertek");
 
+       String str2   =  getDriver2("ChRoMe");  //
 
+        System.out.println(str2);
 
     }
 
@@ -59,11 +61,28 @@ method decleration:
                 default: result = "Invalid Driver";
             }
 
-        System.out.println(result);
-
             return result;
     }
 
+    public static String getDriver2(String browserName){
+        browserName = browserName.toLowerCase();  //to ignore case sensitivity
+        String result = "";
+        if(browserName.equals("chrome")){
+            result = "Chrome Driver";
+        }else if(browserName.equals("firefox")){
+            result = "FireFox driver";
+        }else if(browserName.equals("safari")){
+            result = "Safari Driver";
+        }else if(browserName.equals("edge")){
+            result = "Edge Driver";
+        }else if(browserName.equals("opera")){
+            result = "Opera Driver";
+        }else{
+            result = "Invalid Driver";
+        }
+
+        return result;
+    }
 
 
 }
