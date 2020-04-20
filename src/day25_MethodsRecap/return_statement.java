@@ -12,7 +12,8 @@ public class return_statement {
         System.out.println("Hello");
         */
 
-        method1();
+      //  method1();  // return
+          method2();  // system.exit
 
         System.out.println("Hello");
 
