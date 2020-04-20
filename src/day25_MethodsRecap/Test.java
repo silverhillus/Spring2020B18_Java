@@ -19,6 +19,11 @@ public class Test {
         System.out.println(num1);
 
 
+        String str3 = "MMMNNNJJJJJIIIIUUUUUUYYYYYYYY";
+        String result3 =     Library.FrequencyOfChars(str3);
+        System.out.println(result3);
+
+
 
     }
 
