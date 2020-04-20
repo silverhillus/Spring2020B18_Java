@@ -11,6 +11,14 @@ public class Test {
 
         System.out.println(result);
 
+        String str1 = "AABBCDEB";
+        String str2 = "B";
+
+       int num1 =  Library.Frequency(str1,str2);
+
+        System.out.println(num1);
+
+
 
     }
 
