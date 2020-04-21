@@ -72,7 +72,10 @@ public class MethodOverLoading2 {
         System.out.println(a+b+c+d);
     }
 
-
+/*
+first method: can find the sum of two int numbers
+second method: can find the sum of two double numbers
+ */
 
 
 
