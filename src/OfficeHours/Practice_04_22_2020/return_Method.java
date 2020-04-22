@@ -10,6 +10,8 @@ public class return_Method {
         System.out.println(num1);
 
 
+
+
     }
 
     public static void sum(int a, int b){
