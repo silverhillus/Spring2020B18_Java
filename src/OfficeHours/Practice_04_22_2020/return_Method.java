@@ -28,6 +28,8 @@ public class return_Method {
 
         System.out.println( name.equals(name2) );
 
+        System.out.println( reverse(name)  );
+
 
     }
 
