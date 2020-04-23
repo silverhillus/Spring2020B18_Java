@@ -14,6 +14,7 @@ public class Find_Minimum {
         int[] arr = {5, 4, 7, 5};
 
         int minimum = arr[0]; //4
+
         for(int each  : arr ){ //each: 5, 4, 7, 5
 
             if(each < minimum){
